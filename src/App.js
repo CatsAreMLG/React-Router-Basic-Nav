@@ -6,7 +6,6 @@ import { Route } from "react-router-dom";
 const App = () => (
   <div>
     <Route exact path="/" component={Home} />
-    <Route exact path="/navigation" component={Navigation} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
     <Navigation />
